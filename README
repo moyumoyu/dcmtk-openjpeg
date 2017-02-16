@@ -55,3 +55,14 @@ suggested fix.  For general questions on how to compile, install or use
 the toolkit we recommend the public discussion forum at:
 
         http://forum.dcmtk.org/
+		
+Based on dcmtk-3.6.1_20161102 added openjpeg library, you can directly cmake generate projects, no other configuration
+1: modify openjpeg to cpp mode,
+2: modified dcmjpeg. Support EXS_JPEG2000, EXS_JPEG2000LosslessOnly syntax, external programming has not changed, the internal automatic implementation.
+3: modified instd in Debug mode error report
+4: Supports compressed pixels with file header and non-lead format
+5: modified MTD to MDD, MTD to MD
+
+e-mail:diyirj@163.com
+
+qq group:107534874
